@@ -2,7 +2,8 @@
 .ipynb_checkpoints/
 
 # データフォルダを無視
-data/
+data/processed
+data/raw
 !data/README.md
 
 # 出力ファイルを無視
