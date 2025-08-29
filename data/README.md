@@ -1,4 +1,4 @@
-\# データの取り扱いについて
+# データの取り扱いについて
 
 
 
@@ -8,13 +8,13 @@
 
 
 
-\- 出典: \[Kaggle — User Anime Dataset](https://www.kaggle.com/datasets/tavuksuzdurum/user-animelist-dataset)  
+- 出典: \[Kaggle — User Anime Dataset](https://www.kaggle.com/datasets/tavuksuzdurum/user-animelist-dataset)  
 
-\- ライセンス: CC BY 4.0 (Creative Commons Attribution 4.0 International)
+- ライセンス: CC BY 4.0 (Creative Commons Attribution 4.0 International)
 
 
 
-\## データ取得方法
+## データ取得方法
 
 
 
@@ -54,58 +54,38 @@ data/
 
 
 
-\## ファイル概要
+## ファイル概要
 
 
-
-\- \*\*animes.csv\*\*
+- **animes.csv**
   
-　- animeID (アニメID)
-
+  - animeID (アニメID)
   - title (作品のタイトル)
-
   - alternatrive_title (作品の副タイトル)
-
-　- year (発表された年)
-
-　- episodes (エピソード数)
-
-　- type (発表された形式。テレビアニメ、映画等)
-
-　- score (投稿された評価の平均点)
-
-　- sequel (続編か否か)
-
-　- image_url (アニメのビジュアルイメージのurl)
-
-　- mal_url (該当作品のレビューページ)
-
-　- genres(ジャンル)
-
-　- genres_detailed (詳細ジャンル)  
+  - year (発表された年)
+  - episodes (エピソード数)
+  - type (発表された形式。テレビアニメ、映画等)
+  - score (投稿された評価の平均点)
+  - sequel (続編か否か)
+  - image_url (アニメのビジュアルイメージのurl)
+  - mal_url (該当作品のレビューページ)
+  - genres(ジャンル)
+  - genres_detailed (詳細ジャンル) 
 
 
+- **ratings.csv**
+  - userID (ユーザーID)
+  - animeID (アニメID)
+  - rating (実際に投稿された評価点。1-10)
 
 
+## 注意事項
 
-\- \*\*ratings.csv\*\*  
+- **本リポジトリにはデータそのものは含まれていません。**  
 
-　- userID (ユーザーID)
+- データ利用時は Kaggle のライセンス条件に従ってください。  
 
-　- animeID (アニメID)
-
-　- rating (実際に投稿された評価点。1-10)
-
-
-
-
-\## 注意事項
-
-\- \*\*本リポジトリにはデータそのものは含まれていません。\*\*  
-
-\- データ利用時は Kaggle のライセンス条件に従ってください。  
-
-\- 大規模データのため、処理には十分なメモリ（例: 8GB以上）を推奨します。  
+- 大規模データのため、処理には十分なメモリ（例: 8GB以上）を推奨します。  
 
 
 
