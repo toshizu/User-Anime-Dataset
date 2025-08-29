@@ -1,8 +1,8 @@
-\# User Anime Dataset — Rating Analysis
+# User Anime Dataset — Rating Analysis
 
 
 
-\## 概要
+## 概要
 
 Kaggleの「User Anime Dataset」を用いて、作品メタ情報とユーザのレーティングから、
 
@@ -10,13 +10,13 @@ Kaggleの「User Anime Dataset」を用いて、作品メタ情報とユーザ�
 
 
 
-\## 主要結果（ダイジェスト）
+## 主要結果（ダイジェスト）
 
-\- 放送形式ごとの、評価の投稿数の違い（図1）
+- 放送形式ごとの、評価の投稿数の違い（図1）
 
-\- 続編か否かによる、評価の投稿数の違い（図2）
+- 続編か否かによる、評価の投稿数の違い（図2）
 
-\- ジャンルごとの投稿数の違い（図3）
+- ジャンルごとの投稿数の違い（図3）
 
 
 
@@ -29,15 +29,15 @@ Kaggleの「User Anime Dataset」を用いて、作品メタ情報とユーザ�
 <img src="reports/14_Number_of_Score_in_each_Genres.png" alt="サンプル図" width="700">
 
 
-\## データ
+## データ
 
 本プロジェクトでは、Kaggle の「User Anime Dataset」を利用しています。
 
 
 
-\- 出典: \[Kaggle — User Anime Dataset](https://www.kaggle.com/datasets/tavuksuzdurum/user-animelist-dataset)
+- 出典: \[Kaggle — User Anime Dataset](https://www.kaggle.com/datasets/tavuksuzdurum/user-animelist-dataset)
 
-\- ライセンス: CC BY 4.0 (Creative Commons Attribution 4.0 International)
+- ライセンス: CC BY 4.0 (Creative Commons Attribution 4.0 International)
 
 
 
@@ -49,10 +49,10 @@ Kaggleの「User Anime Dataset」を用いて、作品メタ情報とユーザ�
 
 
 
-\## 再現手順
+## 再現手順
 
 
-\# 1. 環境構築
+### 1. 環境構築
 
 ```bash
 
@@ -62,9 +62,8 @@ pip install -r requirements.txt
 
 ```
 
-\# 2. データ配置
-
-\# kaggleからzipファイルをダウンロードして解凍 → data/raw/ に配置
+### 2. データ配置
+kaggleからzipファイルをダウンロードして解凍 → data/raw/ に配置
 
 
 
